@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Lets Do It</title>
+    <script src="angular.js"></script>
+    <script src="core.js"></script>
+</head>
+<body>
+<div ng-app="letsDoIt">
+    <div ng-controller="manageCtrl">
+        <create-todo create="createToDo()" txt="txt"></create-todo>
+        <show-todos todos="todos" deleteToDo="deleteToDo()"></show-todos>
+    </div>
+</div>
+
+</body>
+</html>
