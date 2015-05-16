@@ -1,4 +1,4 @@
-lets-do-it
+Track My Flight
 ==========
 
-A todo app made in MEAN stack
+An awesome web app that tracks price drops of your flights and send you an email as soon as it gets down.
